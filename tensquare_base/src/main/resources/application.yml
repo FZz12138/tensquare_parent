@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: tensquare-base #指定服务名
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://60.205.229.223:3306/tensquare_base
+    username: work
+    password: work
+
+  jpa:
+    database: MySQL
+    show‐sql: true
+    generate‐ddl: true #自动创建表结构
+server:
+  port: 9001
